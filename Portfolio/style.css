@@ -1,0 +1,133 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FFDEB4;
+    padding: 10px;
+}
+
+.item {
+    color: #FFB4B4;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.item:hover {
+    background-color:#FFB4B4;
+    color: white;
+}
+
+.first {
+    margin-right: auto;
+}
+
+.front {
+    display: flex;
+}
+
+#video {
+    width: 100%;
+}
+
+body {
+    background-color: #FFF9CA;
+    margin: 0;
+}
+
+.about {
+    display: flex;
+}
+
+.text {
+    align-self: center;
+    color: #FFB4B4;
+}
+
+.job {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 80px;
+    font-weight: bold;
+    color: #B2A4FF;
+}
+.name {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    padding-left: 160px;
+    font-weight: bold;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #B2A4FF;
+    font-size:30px
+}
+
+.heading:focus {
+    color: white;
+}
+
+.skills_list {
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.skill {
+    list-style-type: square;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: #FFB4B4;
+}
+
+.projects {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #FFB4B4;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #FFB4B4;
+    margin: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #FFDEB4;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 15px;
+    cursor: help;
+    flex: 1;
+}
+
+.cta:hover {
+    background-color: #FFB4B4;
+}
